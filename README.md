@@ -21,6 +21,27 @@ The main objective is to create a basic mysql server and create a login web page
 ## XAMPP
 <img src="https://img.shields.io/badge/XAMPP-FF7A00?style=for-the-badge&logo=xampp&logoColor=white" />
 
+XAMPP is a free software that lets you run a web server on your own computer
+- X  -Cross-platform (works on Windows, Linux, Mac)
+- A  -Apache (web server)
+- M  -MySQL / MariaDB (database)
+- P  -PHP (programming language)
+- P  -Perl (programming language)
+
+## Autospy
+<img src="https://img.shields.io/badge/Autopsy-Digital_Forensics-blue?style=for-the-badge" />
+
+Autopsy is a digital forensics tool used to analyze computers, hard drives, and files to find evidence
+It is used to,
+- Recover deleted files
+- Analyze hard disks 
+- Check browser history 
+- Find hidden or suspicious files 
+- Detect malware activity 
+
+
+
+
 ## Steps
 
 ### Step 1 -connet to the HTB network via openvpn
