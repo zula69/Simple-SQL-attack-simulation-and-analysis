@@ -2,23 +2,24 @@
 
 
 ## Objective
-
+The main objective is to create a basic mysql server and create a login web page which checks the content in the mysql server (like username and password) and perform a sql injection attack. Then analize the evidences using autopsy and create a disk image to preserve evidences using FTK imager.
 
 
 ### Skills Learned
-- Understanding basic system enumeration 
-- Practicing initial foothold techniques 
-- Learning privilege escalation 
-- Documenting attack methodology 
-- Building confidence in ethical hacking 
+- Using XAMPP to create a mysql and apache server on our localhost
+- creating a basic login html and a php file
+- Basics of sql injection attakcs ( about malicious inputs)
+- Basics of autospy -analyzing a basic evidence_log file
+- basics of FTK imager -creating a image file
 
 ### Tools Used
 
+- XAMPP -to create a mysql and a apache server on localhost
+- autopsy -to analyze the evidences
+- FTK imager -to create an image file
 
-- Nmap -helped to identify th open ports,and running services like telnet.
-- Telnet -used to connect on the targeted system (meowPC)
-- kalilinux -used as the attacker PC
-- openVPN -used to connect to the hack the box lab environment
+## XAMPP
+<img src="https://img.shields.io/badge/XAMPP-FF7A00?style=for-the-badge&logo=xampp&logoColor=white" />
 
 ## Steps
 
