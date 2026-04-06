@@ -75,8 +75,55 @@ FTK Imager is a tool used to copy and examine data from a computer or hard drive
 
 ### Step 7-SQL injection 
 <img width="1920" height="1040" alt="sqlworkinginjec" src="https://github.com/user-attachments/assets/3ebeff24-adb5-4b08-b974-f4e1c96ef3a1" />
+
 <img width="1920" height="1039" alt="sqlworkinginjec2" src="https://github.com/user-attachments/assets/9a8ae683-8c05-4834-b029-d61a0753edc6" />
+ 
+SQL injection happens when an application:
 
-- 
+- takes user input,
+- puts it directly into an SQL query,
+- and does not properly separate data from code.
+
+Because of that, the database may treat part of the user’s input as SQL commands instead of plain text.
+At a conceptual level, that input tries to do three things:
+
+' -closes the text value the app was expecting
+OR 1=1 -adds a condition that is always true
+'#'-comments out the rest of the query in some SQL dialects
+
+So instead of the app checking “does this exact username and password match?”, the query logic can get changed into something like:
+
+“username matches or this always-true condition is true”
+
+### step 8-Use autopsy to analyze evidence
+
+- Adding the data source
+<img width="1699" height="919" alt="adding thedatasource1" src="https://github.com/user-attachments/assets/5fadaa73-2e85-4437-8926-dc5e01dfbc3d" />
+
+- Adding case details
+<img width="1704" height="904" alt="autospsy case1" src="https://github.com/user-attachments/assets/60ea7967-6ef5-4cf3-ad9d-35cf29e6af98" />
+
+- Inspecting evidence
+<img width="1704" height="906" alt="inspecting evidence" src="https://github.com/user-attachments/assets/020ce0e8-4443-4763-83ce-56210180dcd2" />
+
+- At 10.30 AM there was a login attempt using the username admin
+- At 10.32 AM there was a suspicious login attempt ( ' OR 1 = 1 #)
+- At 10.33 AM access granted to the system
+- AT 10.35 patient records viewed
+
+We can gather valuable information like evidence logs using web servers, sql servers etc. Most of the time, activities in a server recorded as log files.
+
+### step 9-Use FTK imager to image the affected file.
+
+- selecting the source file
+<img width="1920" height="1080" alt="selecting the source file" src="https://github.com/user-attachments/assets/13b6a9e9-7975-4dbd-a70e-29dfd87a65a0" />
+
+- adding details of the case
+
+Adding details like case information, case id, evidence number, examiner etc is important in digital forensics.
+<img width="1920" height="1080" alt="details of he case" src="https://github.com/user-attachments/assets/88179a6e-a01b-401c-afd7-8d0e155b321b" />
 
 
+- Confirmation
+<img width="1920" height="1080" alt="progress of the imaging" src="https://github.com/user-attachments/assets/d06c1905-60ee-4167-a292-9bdcea09a2c1" />
+<img width="1920" height="1080" alt="confirmation" src="https://github.com/user-attachments/assets/b8015071-5404-440c-a95d-baf4438cc82b" />
