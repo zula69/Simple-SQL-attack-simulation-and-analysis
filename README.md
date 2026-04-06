@@ -40,7 +40,7 @@ It is used to,
 - Detect malware activity 
 
 ## FTK imager
-< img src="https://img.shields.io/badge/FTK%20Imager-Digital_Forensics-4B0082?style=for-the-badge" />
+< img src="https://img.shields.io/badge/FTK%20Imager-Forensics-4B0082?style=for-the-badge&logo=windows&logoColor=white" />
 
 FTK Imager is a tool used to copy and examine data from a computer or hard drive for investigation purposes
 
