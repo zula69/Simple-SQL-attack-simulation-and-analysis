@@ -87,9 +87,9 @@ SQL injection happens when an application:
 Because of that, the database may treat part of the user’s input as SQL commands instead of plain text.
 At a conceptual level, that input tries to do three things:
 
-' -closes the text value the app was expecting
-OR 1=1 -adds a condition that is always true
-'#'-comments out the rest of the query in some SQL dialects
+- ' -closes the text value the app was expecting
+- OR 1=1 -adds a condition that is always true
+- '#'-comments out the rest of the query in some SQL dialects
 
 So instead of the app checking “does this exact username and password match?”, the query logic can get changed into something like:
 
