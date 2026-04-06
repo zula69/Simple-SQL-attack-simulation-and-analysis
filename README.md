@@ -109,7 +109,7 @@ So instead of the app checking â€œdoes this exact username and password match?â€
 - At 10.30 AM there was a login attempt using the username admin
 - At 10.32 AM there was a suspicious login attempt ( ' OR 1 = 1 #)
 - At 10.33 AM access granted to the system
-- AT 10.35 patient records viewed
+- At 10.35 patient records viewed
 
 We can gather valuable information like evidence logs using web servers, sql servers etc. Most of the time, activities in a server recorded as log files.
 
