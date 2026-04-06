@@ -44,35 +44,11 @@ It is used to,
 
 FTK Imager is a tool used to copy and examine data from a computer or hard drive for investigation purposes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Steps
 
-### Step 1 -connet to the HTB network via openvpn
-![openvpn](https://github.com/user-attachments/assets/e5ad1ede-d6b1-4265-98c0-21c910a71d7a)
+### Step 1 -Configure apache and mysql server using XAMPP
+<img width="1920" height="1040" alt="configuring the localhost server by starting apache" src="https://github.com/user-attachments/assets/49cacadb-c62d-4e82-8b70-df0ddce954dc" />
+
 
 ### Step 2-verify connectivity
 ![ping](https://github.com/user-attachments/assets/7cf3a81c-498f-4005-8bf1-66be714f3b4a)
