@@ -50,8 +50,11 @@ FTK Imager is a tool used to copy and examine data from a computer or hard drive
 <img width="1920" height="1040" alt="configuring the localhost server by starting apache" src="https://github.com/user-attachments/assets/49cacadb-c62d-4e82-8b70-df0ddce954dc" />
 
 
-### Step 2-verify connectivity
-![ping](https://github.com/user-attachments/assets/7cf3a81c-498f-4005-8bf1-66be714f3b4a)
+### Step 2-Create a database and add values to the table
+<img width="1920" height="1039" alt="creating hope hospital database" src="https://github.com/user-attachments/assets/a851d5b2-2281-4ef7-bb77-0e22f620c13f" />
+<img width="1920" height="1038" alt="creating tables1" src="https://github.com/user-attachments/assets/1ffb9007-86fb-470a-a2ae-4b35505df7de" />
+<img width="1920" height="1039" alt="table2" src="https://github.com/user-attachments/assets/09dea470-b4dc-4fe5-b852-21fa76fe9bf7" />
+
 
 ### Step 3-Enumerate the Target
 ![nmap](https://github.com/user-attachments/assets/2ed55376-7f11-4988-a2d3-ceaf85a3a087)
