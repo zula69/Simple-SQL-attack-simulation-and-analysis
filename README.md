@@ -56,17 +56,27 @@ FTK Imager is a tool used to copy and examine data from a computer or hard drive
 <img width="1920" height="1039" alt="table2" src="https://github.com/user-attachments/assets/09dea470-b4dc-4fe5-b852-21fa76fe9bf7" />
 
 
-### Step 3-Enumerate the Target
-![nmap](https://github.com/user-attachments/assets/2ed55376-7f11-4988-a2d3-ceaf85a3a087)
-
-### step 4-Exploit Telnet
-![telnet](https://github.com/user-attachments/assets/e91f25dd-4ba6-473f-a580-eaf8e65274bc)
-![telnet2](https://github.com/user-attachments/assets/4ea2ef91-993b-46ff-b7bc-fc5dd8623a7b)
-- someimes, due to the configuration mistakes, some important accounts can be left with blanks passwords. So we can try some typical names such as admin, root, administrator etc.
+### Step 3-Create login html (login page)
+<img width="1920" height="1080" alt="loginhtml" src="https://github.com/user-attachments/assets/6a76d9a5-ba74-4148-9f26-a0510f76998f" />
 
 
-### Step 5-Capture the flag
-![flag](https://github.com/user-attachments/assets/2cd94e9f-299e-40ea-abc4-275d8329506a)
+### step 4-Create login php
+<img width="1422" height="1023" alt="loginphp" src="https://github.com/user-attachments/assets/f44c687b-ebf8-49e1-9459-6e37deda94d7" />
 
+- php file is used to connect the database and check whether the login details are correct
+
+### Step 5-Admin login
+<img width="1920" height="1039" alt="adminlogin" src="https://github.com/user-attachments/assets/44dae0d2-73c0-4737-bd98-50d2e6c6c205" />
+<img width="1920" height="1042" alt="adminlogin2" src="https://github.com/user-attachments/assets/ab5fe5eb-161c-420a-8110-e130ca4b6e53" />
+
+### Step 6-User login
+<img width="1920" height="1036" alt="userlogin" src="https://github.com/user-attachments/assets/5f93f93f-efcd-4f27-8851-1310b7c14fb2" />
+<img width="1920" height="1040" alt="userlogin2" src="https://github.com/user-attachments/assets/4d87117b-4374-4d59-97c8-c9fa02876c46" />
+
+### Step 7-SQL injection 
+<img width="1920" height="1040" alt="sqlworkinginjec" src="https://github.com/user-attachments/assets/3ebeff24-adb5-4b08-b974-f4e1c96ef3a1" />
+<img width="1920" height="1039" alt="sqlworkinginjec2" src="https://github.com/user-attachments/assets/9a8ae683-8c05-4834-b029-d61a0753edc6" />
+
+- 
 
 
